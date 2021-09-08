@@ -1,0 +1,21 @@
+{
+    "name": "perspective/module-ukrposhta-shipping",
+    "description": "Ukrposhta shipping module",
+    "type": "magento2-module",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Volodymyr Serbynskyi",
+            "email": "volodymyr.serbynskyi@gmail.com"
+        }
+    ],
+    "version": "1.0.0",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Perspective\\Ukrposhta\\": ""
+        }
+    }
+}

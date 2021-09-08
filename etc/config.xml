@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <carriers>
+            <ukrposhta>
+                <active>0</active>
+                <title>Ukrposhta</title>
+                <name>Express</name>
+                <price>30</price>
+                <sallowspecific>0</sallowspecific>
+                <model>Perspective\Ukrposhta\Model\Carrier\UkrposhtaExpress</model>
+            </ukrposhta>
+        </carriers>
+    </default>
+</config>
