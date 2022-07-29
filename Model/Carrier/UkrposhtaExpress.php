@@ -91,7 +91,7 @@ class UkrposhtaExpress extends AbstractCarrier implements CarrierInterface
      */
     public function getAllowedMethods()
     {
-        return [$this->_code => $this->getConfigData('name')];
+        return [self::METHOD_CODE => $this->getConfigData('name')];
     }
 
     /**
